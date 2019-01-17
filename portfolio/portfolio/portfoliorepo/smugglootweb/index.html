@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!-- https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_website&stacked=h -->
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#gameplay video" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Gameplay video</a>
+  <a href="#Snapshot" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Snapshot</a>
+  <a href="#Documentation" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Documentation</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  </div>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#gameplay video" class="w3-bar-item w3-button">Gameplay video</a>
+    <a href="#Snapshot" class="w3-bar-item w3-button">Snapshot</a>
+        <a href="#Snapshot" class="w3-bar-item w3-button">Documentation</a>
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity" style="height:740px">
+  <img src="images/welcomeimg.jpg" style="width:100%;min-height:350px;max-height:750px;"> 
+     <h1 style="position:relative;top:1px">Smuggloot</h1>
+  <p1> <i> Join the sneaky business</i> <p1/>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- video Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="gameplay video" style="position:relative;height:780px">
+<iframe width="850" height="550" style="position:relative;top:60px" src="https://www.youtube.com/embed/GPsPHKnXmqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<!-- Snapshot Container -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1 w3-center" id="Snapshot">
+  <div class="w3-quarter" style="position:relative;left:90px;top:100px">
+     <h2>Welcome to Smuggloot!</h2>
+      <p style="font-size:17px"> 
+      You are a Smuggler in the lootbox trafficking business.
+      </p>
+      <p style="font-size:17px"> Make your way through different scenarios and deliver the boxes to your client, but make sure you are discrete! </p>
+      <p style="font-size:17px"><i> Sneak around avoiding the guards and their dogs in this fast-paced, 2D stealth game.</i></p>
+  </div>
+
+    <div class="w3-half" style="position:relative;left:150px;height:620px">
+      <div class="w3-container" style="position:relative;top:40px">
+          <img src="images/snapshot.png" alt="Snapshot"  width="850" height="550" class="w3-snapshot">
+       </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Documentation container -->
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="Documentation">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+
+
+    <a href="documents/highconcept.pdf">
+  <img src="images/workimg11.png" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  <h3>High Concept</h3>
+    </a>
+
+  <h4>Trade</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+
+     <a href="https://www.canva.com/design/DADOhvt7Zy8/QTaxTxaTki4gTN8jYZsKew/view?website#2:page-1:6">
+  <img src="images/workimg22.png" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>Game Treatment</h3>
+    </a>
+
+  <h4>Trade</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+
+         <a href="documents/businessplan.pdf">
+  <img src="images/workimg33.png" alt="Mountains" style="width:100%">
+  <div class="w3-container">
+  <h3>Business Plan</h3>
+    </a>
+
+  <h4>Trade</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+
+
+<!-- Team Container -->
+<div  class="w3-row-padding w3-padding-64 w3-theme-l1 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>Meet the team - our office rats:</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="images/avatar1.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Bárbara</h3>
+</div>
+
+<div class="w3-quarter">
+  <img src="images/avatar2.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Denis</h3>
+</div>
+
+<div class="w3-quarter">
+  <img src="images/avatar3.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Francisco</h3>
+</div>
+
+<div class="w3-quarter">
+  <img src="images/avatar4.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Marcelo</h3>
+</div>
+
+</div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Copyright 2018 | All Rights Reserved</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+<style>
+
+h1 {
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+p1 {
+  color: white;
+  font-size: 20px;
+}
+
+</style>
+
+
+</body>
+</html>
